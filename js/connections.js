@@ -7,6 +7,7 @@
     let mistakes = 4;
     let gameOver = false;
     let remainingWords = [];
+    let previousGuesses = []; // Track previous guesses to prevent duplicates
 
     async function loadData() {
         try {
@@ -117,6 +118,14 @@
     function submitGuess() {
         if (selected.length !== 4 || gameOver) return;
 
+        // Check if this exact combination was already guessed
+        const guessKey = selected.map(s => s.toUpperCase()).sort().join('|');
+        if (previousGuesses.includes(guessKey)) {
+            showToast('Already guessed!');
+            return;
+        }
+        previousGuesses.push(guessKey);
+
         // Check if selected words form a valid group
         let matchedGroup = null;
         for (const group of puzzle.answers) {
@@ -198,6 +207,7 @@
         solved = [];
         mistakes = 4;
         gameOver = false;
+        previousGuesses = [];
         pickPuzzle();
 
         // Collect all words and shuffle
