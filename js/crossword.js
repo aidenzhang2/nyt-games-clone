@@ -232,7 +232,7 @@
                 </div>
             </div>
             <div class="cw-board-wrapper">
-                <div class="cw-board cw-board-${GRID_SIZE}" id="cw-board" style="grid-template-columns: repeat(${GRID_SIZE}, 1fr);"></div>
+                <div class="cw-board cw-board-${GRID_SIZE}" id="cw-board" style="grid-template-columns: repeat(${GRID_SIZE}, 1fr); grid-template-rows: repeat(${GRID_SIZE}, 1fr);"></div>
             </div>
             <div class="cw-active-clue" id="cw-active-clue"></div>
             <div class="cw-clues" id="cw-clues"></div>
