@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT Games Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;800&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+                <span>Games</span>
+            </div>
+        </div>
+        <nav class="game-tabs">
+            <button class="tab-btn active" data-game="wordle">Wordle</button>
+            <button class="tab-btn" data-game="connections">Connections</button>
+            <button class="tab-btn" data-game="spelling-bee">Spelling Bee</button>
+            <button class="tab-btn" data-game="crossword">Mini Crossword</button>
+        </nav>
+    </header>
+
+    <main>
+        <div id="wordle-game" class="game-container active"></div>
+        <div id="connections-game" class="game-container"></div>
+        <div id="spelling-bee-game" class="game-container"></div>
+        <div id="crossword-game" class="game-container"></div>
+    </main>
+
+    <div id="toast-container"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/wordle.js"></script>
+    <script src="js/connections.js"></script>
+    <script src="js/spelling-bee.js"></script>
+    <script src="js/crossword.js"></script>
+</body>
+</html>
