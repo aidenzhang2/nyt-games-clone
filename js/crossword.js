@@ -14,135 +14,267 @@
     const puzzles = [
         {
             grid: [
-                ['S','T','A','R','S'],
-                ['H','A','I','L','S'],
-                ['A','L','I','V','E'],
-                ['R','E','S','E','T'],
-                ['P','D','#','E','S']
+                ['G','A','I','N','S'],
+                ['A','S','S','E','T'],
+                ['I','S','#','W','E'],
+                ['N','E','W','E','R'],
+                ['S','T','E','R','N'],
             ],
-            acrossClues: { 1: "Twinkle in the sky", 6: "Greets with pelting ice", 7: "Not dead", 8: "Start over button", 9: "Police department (abbr.)" },
-            downClues: { 1: "Keen, like a blade", 2: "Stories, anecdotes", 3: "Wing of a building", 4: "Peeled fruit's remains", 5: "Plural of 'is' (archaic)" }
+            acrossClues: { 1: "Profits", 6: "Valuable item", 7: "Exists", 8: "Together pronoun", 9: "More recent", 11: "Strict" },
+            downClues: { 1: "Profits", 2: "Valuable item", 3: "Exists", 4: "More recent", 5: "Strict", 10: "Together pronoun" }
         },
         {
             grid: [
-                ['C','R','A','N','E'],
-                ['L','I','V','E','D'],
-                ['A','N','#','A','R'],
-                ['S','G','R','I','P'],
-                ['P','S','A','N','E']
+                ['R','A','N','K','S'],
+                ['A','L','O','N','E'],
+                ['N','O','#','O','N'],
+                ['K','N','O','T','S'],
+                ['S','E','N','S','E'],
             ],
-            acrossClues: { 1: "Construction site machine", 6: "Existed in the past", 7: "Sound system (abbr.)", 8: "Hold on tight", 9: "Mentally sound" },
-            downClues: { 1: "Fastener, buckle", 2: "Jewelry hoops", 3: "Normal", 4: "Small bite", 5: "Dry, parched" }
+            acrossClues: { 1: "Positions", 6: "By oneself", 7: "Negative", 8: "Atop", 9: "Tied loops", 11: "Feeling" },
+            downClues: { 1: "Positions", 2: "By oneself", 3: "Negative", 4: "Tied loops", 5: "Feeling", 10: "Atop" }
         },
         {
             grid: [
-                ['B','R','A','V','E'],
-                ['L','I','D','E','A'],
-                ['O','N','#','G','R'],
-                ['C','E','A','S','E'],
-                ['K','D','T','E','D']
+                ['L','E','A','D','S'],
+                ['E','X','T','R','A'],
+                ['A','T','#','I','N'],
+                ['D','R','I','E','D'],
+                ['S','A','N','D','S'],
             ],
-            acrossClues: { 1: "Courageous", 6: "Concept, thought", 7: "Switch position", 8: "Stop, desist", 9: "Bored, tired" },
-            downClues: { 1: "City section", 2: "Horseback riders", 3: "Past tense of eat", 4: "Big bird of Australia", 5: "Feared, was afraid" }
+            acrossClues: { 1: "Guides", 6: "Additional", 7: "Location word", 8: "Inside", 9: "Not wet", 11: "Beach grains" },
+            downClues: { 1: "Guides", 2: "Additional", 3: "Location word", 4: "Not wet", 5: "Beach grains", 10: "Inside" }
         },
         {
             grid: [
-                ['F','L','A','R','E'],
-                ['L','I','N','E','S'],
-                ['A','D','#','A','T'],
-                ['S','G','R','I','T'],
-                ['H','E','A','R','S']
+                ['R','A','I','D','S'],
+                ['A','S','S','E','T'],
+                ['I','S','#','T','O'],
+                ['D','E','T','E','R'],
+                ['S','T','O','R','E'],
             ],
-            acrossClues: { 1: "Signal light, burst", 6: "Rows, queues", 7: "Promotion (abbr.)", 8: "Determination, sand", 9: "Perceives sound" },
-            downClues: { 1: "Camera burst", 2: "Loitered", 3: "Part of the ear", 4: "Brings up children", 5: "Eastern, oriental" }
+            acrossClues: { 1: "Sudden attacks", 6: "Valuable item", 7: "Exists", 8: "Toward", 9: "Discourage", 11: "Shop" },
+            downClues: { 1: "Sudden attacks", 2: "Valuable item", 3: "Exists", 4: "Discourage", 5: "Shop", 10: "Toward" }
         },
         {
             grid: [
-                ['G','R','A','S','P'],
-                ['R','A','D','A','R'],
-                ['A','C','#','L','I'],
-                ['N','E','M','E','N'],
-                ['D','S','A','D','S']
+                ['G','H','O','S','T'],
+                ['H','E','N','C','E'],
+                ['O','N','#','A','N'],
+                ['S','C','A','L','D'],
+                ['T','E','N','D','S'],
             ],
-            acrossClues: { 1: "Understand, seize", 6: "Detection system", 7: "Air conditioning (abbr.)", 8: "Foes, adversaries", 9: "Fathers, papas" },
-            downClues: { 1: "Big, impressive", 2: "Running contests", 3: "Canine friends", 4: "Bargain events", 5: "Skin irritation" }
+            acrossClues: { 1: "Spirit", 6: "Therefore", 7: "Atop", 8: "Article", 9: "Burn with liquid", 11: "Is inclined" },
+            downClues: { 1: "Spirit", 2: "Therefore", 3: "Atop", 4: "Burn with liquid", 5: "Is inclined", 10: "Article" }
         },
         {
             grid: [
-                ['P','L','A','N','T'],
-                ['R','O','N','E','S'],
-                ['I','C','#','W','H'],
-                ['Z','K','I','N','G'],
-                ['E','S','T','S','S']
+                ['J','O','I','N','S'],
+                ['O','N','S','E','T'],
+                ['I','S','#','W','E'],
+                ['N','E','W','E','R'],
+                ['S','T','E','R','N'],
             ],
-            acrossClues: { 1: "Vegetation, factory", 6: "Solitary figures", 7: "In the area of", 8: "Chess piece, monarch", 9: "Tests, exams" },
-            downClues: { 1: "Award, trophy", 2: "Securing devices", 3: "Opposite of out", 4: "Reports, bulletins", 5: "Marks with a pen" }
+            acrossClues: { 1: "Connects", 6: "Beginning", 7: "Exists", 8: "Together pronoun", 9: "More recent", 11: "Strict" },
+            downClues: { 1: "Connects", 2: "Beginning", 3: "Exists", 4: "More recent", 5: "Strict", 10: "Together pronoun" }
         },
         {
             grid: [
-                ['S','P','I','C','E'],
-                ['T','O','N','E','D'],
-                ['O','R','#','A','R'],
-                ['R','E','F','R','I'],
-                ['E','S','T','S','P']
+                ['S','C','A','L','D'],
+                ['C','A','M','E','O'],
+                ['A','M','#','A','S'],
+                ['L','E','A','S','E'],
+                ['D','O','S','E','S'],
             ],
-            acrossClues: { 1: "Cinnamon or pepper", 6: "Muscular, fit", 7: "Either ___", 8: "Cooling appliance part", 9: "Water dripping sound" },
-            downClues: { 1: "Retail outlets", 2: "Preface, intro", 3: "Breathe in deeply", 4: "Vehicle types", 5: "Drenched" }
+            acrossClues: { 1: "Burn with liquid", 6: "Brief appearance", 7: "Morning time", 8: "Similar to", 9: "Rental agreement", 11: "Medicine amounts" },
+            downClues: { 1: "Burn with liquid", 2: "Brief appearance", 3: "Morning time", 4: "Rental agreement", 5: "Medicine amounts", 10: "Similar to" }
         },
         {
             grid: [
-                ['W','H','A','L','E'],
-                ['H','A','N','D','S'],
+                ['D','O','I','N','G'],
+                ['O','U','T','E','R'],
+                ['I','T','#','S','O'],
+                ['N','E','S','T','S'],
+                ['G','R','O','S','S'],
+            ],
+            acrossClues: { 1: "Performing", 6: "External", 7: "Thing pronoun", 8: "Therefore", 9: "Bird homes", 11: "Disgusting" },
+            downClues: { 1: "Performing", 2: "External", 3: "Thing pronoun", 4: "Bird homes", 5: "Disgusting", 10: "Therefore" }
+        },
+        {
+            grid: [
+                ['W','R','I','S','T'],
+                ['R','A','N','C','H'],
+                ['I','N','#','O','R'],
+                ['S','C','O','P','E'],
+                ['T','H','R','E','E'],
+            ],
+            acrossClues: { 1: "Hand joint", 6: "Large farm", 7: "Inside", 8: "Alternative", 9: "Range", 11: "Number after two" },
+            downClues: { 1: "Hand joint", 2: "Large farm", 3: "Inside", 4: "Range", 5: "Number after two", 10: "Alternative" }
+        },
+        {
+            grid: [
+                ['T','E','A','C','H'],
+                ['E','X','T','R','A'],
+                ['A','T','#','A','S'],
+                ['C','R','A','F','T'],
+                ['H','A','S','T','E'],
+            ],
+            acrossClues: { 1: "Instruct", 6: "Additional", 7: "Location word", 8: "Similar to", 9: "Skill or trade", 11: "Speed" },
+            downClues: { 1: "Instruct", 2: "Additional", 3: "Location word", 4: "Skill or trade", 5: "Speed", 10: "Similar to" }
+        },
+        {
+            grid: [
+                ['C','R','O','P','S'],
+                ['R','I','F','L','E'],
+                ['O','F','#','O','N'],
+                ['P','L','O','T','S'],
+                ['S','E','N','S','E'],
+            ],
+            acrossClues: { 1: "Farm harvest", 6: "Long gun", 7: "Belonging to", 8: "Atop", 9: "Story plans", 11: "Feeling" },
+            downClues: { 1: "Farm harvest", 2: "Long gun", 3: "Belonging to", 4: "Story plans", 5: "Feeling", 10: "Atop" }
+        },
+        {
+            grid: [
+                ['C','R','O','S','S'],
+                ['R','I','F','L','E'],
+                ['O','F','#','A','N'],
+                ['S','L','A','B','S'],
+                ['S','E','N','S','E'],
+            ],
+            acrossClues: { 1: "Angry or X-shape", 6: "Long gun", 7: "Belonging to", 8: "Article", 9: "Thick slices", 11: "Feeling" },
+            downClues: { 1: "Angry or X-shape", 2: "Long gun", 3: "Belonging to", 4: "Thick slices", 5: "Feeling", 10: "Article" }
+        },
+        {
+            grid: [
+                ['A','W','A','R','E'],
+                ['W','O','M','A','N'],
+                ['A','M','#','I','T'],
+                ['R','A','I','S','E'],
+                ['E','N','T','E','R'],
+            ],
+            acrossClues: { 1: "Conscious of", 6: "Adult female", 7: "Morning time", 8: "Thing pronoun", 9: "Lift up", 11: "Go in" },
+            downClues: { 1: "Conscious of", 2: "Adult female", 3: "Morning time", 4: "Lift up", 5: "Go in", 10: "Thing pronoun" }
+        },
+        {
+            grid: [
+                ['S','T','I','N','G'],
+                ['T','U','T','O','R'],
+                ['I','T','#','T','O'],
+                ['N','O','T','E','S'],
+                ['G','R','O','S','S'],
+            ],
+            acrossClues: { 1: "Bee attack", 6: "Private teacher", 7: "Thing pronoun", 8: "Toward", 9: "Written marks", 11: "Disgusting" },
+            downClues: { 1: "Bee attack", 2: "Private teacher", 3: "Thing pronoun", 4: "Written marks", 5: "Disgusting", 10: "Toward" }
+        },
+        {
+            grid: [
+                ['C','O','I','N','S'],
+                ['O','N','S','E','T'],
+                ['I','S','#','W','E'],
+                ['N','E','W','E','R'],
+                ['S','T','E','R','N'],
+            ],
+            acrossClues: { 1: "Metal money", 6: "Beginning", 7: "Exists", 8: "Together pronoun", 9: "More recent", 11: "Strict" },
+            downClues: { 1: "Metal money", 2: "Beginning", 3: "Exists", 4: "More recent", 5: "Strict", 10: "Together pronoun" }
+        },
+        {
+            grid: [
+                ['G','A','M','E','S'],
+                ['A','G','E','N','T'],
+                ['M','E','#','T','O'],
+                ['E','N','T','E','R'],
+                ['S','T','O','R','E'],
+            ],
+            acrossClues: { 1: "Fun activities", 6: "Representative", 7: "Self pronoun", 8: "Toward", 9: "Go in", 11: "Shop" },
+            downClues: { 1: "Fun activities", 2: "Representative", 3: "Self pronoun", 4: "Go in", 5: "Shop", 10: "Toward" }
+        },
+        {
+            grid: [
+                ['S','T','O','L','E'],
+                ['T','O','K','E','N'],
+                ['O','K','#','A','T'],
+                ['L','E','A','S','E'],
+                ['E','N','T','E','R'],
+            ],
+            acrossClues: { 1: "Took illegally", 6: "Symbol", 7: "All right", 8: "Location word", 9: "Rental agreement", 11: "Go in" },
+            downClues: { 1: "Took illegally", 2: "Symbol", 3: "All right", 4: "Rental agreement", 5: "Go in", 10: "Location word" }
+        },
+        {
+            grid: [
+                ['D','O','I','N','G'],
+                ['O','F','F','E','R'],
+                ['I','F','#','S','O'],
+                ['N','E','S','T','S'],
+                ['G','R','O','S','S'],
+            ],
+            acrossClues: { 1: "Performing", 6: "Propose", 7: "Supposing that", 8: "Therefore", 9: "Bird homes", 11: "Disgusting" },
+            downClues: { 1: "Performing", 2: "Propose", 3: "Supposing that", 4: "Bird homes", 5: "Disgusting", 10: "Therefore" }
+        },
+        {
+            grid: [
+                ['C','L','I','M','B'],
+                ['L','A','T','E','R'],
+                ['I','T','#','D','O'],
+                ['M','E','D','I','A'],
+                ['B','R','O','A','D'],
+            ],
+            acrossClues: { 1: "Go up", 6: "Afterward", 7: "Thing pronoun", 8: "Perform", 9: "News outlets", 11: "Wide" },
+            downClues: { 1: "Go up", 2: "Afterward", 3: "Thing pronoun", 4: "News outlets", 5: "Wide", 10: "Perform" }
+        },
+        {
+            grid: [
+                ['S','L','A','V','E'],
+                ['L','E','M','O','N'],
+                ['A','M','#','I','T'],
+                ['V','O','I','C','E'],
+                ['E','N','T','E','R'],
+            ],
+            acrossClues: { 1: "Forced worker", 6: "Sour fruit", 7: "Morning time", 8: "Thing pronoun", 9: "Speaking sound", 11: "Go in" },
+            downClues: { 1: "Forced worker", 2: "Sour fruit", 3: "Morning time", 4: "Speaking sound", 5: "Go in", 10: "Thing pronoun" }
+        },
+        {
+            grid: [
+                ['Q','U','I','T','E'],
+                ['U','L','T','R','A'],
+                ['I','T','#','O','R'],
+                ['T','R','O','U','T'],
+                ['E','A','R','T','H'],
+            ],
+            acrossClues: { 1: "Rather", 6: "Extreme", 7: "Thing pronoun", 8: "Alternative", 9: "Freshwater fish", 11: "Our planet" },
+            downClues: { 1: "Rather", 2: "Extreme", 3: "Thing pronoun", 4: "Freshwater fish", 5: "Our planet", 10: "Alternative" }
+        },
+        {
+            grid: [
+                ['B','E','I','N','G'],
+                ['E','N','T','E','R'],
+                ['I','T','#','S','O'],
+                ['N','E','S','T','S'],
+                ['G','R','O','S','S'],
+            ],
+            acrossClues: { 1: "Existing", 6: "Go in", 7: "Thing pronoun", 8: "Therefore", 9: "Bird homes", 11: "Disgusting" },
+            downClues: { 1: "Existing", 2: "Go in", 3: "Thing pronoun", 4: "Bird homes", 5: "Disgusting", 10: "Therefore" }
+        },
+        {
+            grid: [
+                ['R','U','I','N','S'],
+                ['U','N','T','I','L'],
                 ['I','T','#','G','O'],
-                ['T','E','A','R','S'],
-                ['E','S','K','I','P']
+                ['N','I','G','H','T'],
+                ['S','L','O','T','S'],
             ],
-            acrossClues: { 1: "Ocean mammal", 6: "Appendages for gripping", 7: "Give ___ (concede)", 8: "Drops from crying", 9: "Jump over, omit" },
-            downClues: { 1: "Pale, blanched", 2: "Despises, loathes", 3: "Inquired, requested", 4: "Ledges, borders", 5: "Trachea, windpipe" }
+            acrossClues: { 1: "Remains", 6: "Up to", 7: "Thing pronoun", 8: "Depart", 9: "After dark", 11: "Narrow openings" },
+            downClues: { 1: "Remains", 2: "Up to", 3: "Thing pronoun", 4: "After dark", 5: "Narrow openings", 10: "Depart" }
         },
         {
             grid: [
-                ['T','R','A','I','L'],
-                ['H','A','N','G','S'],
-                ['A','N','#','N','O'],
-                ['W','K','I','N','D'],
-                ['S','S','T','E','W']
+                ['C','L','I','M','B'],
+                ['L','A','T','E','R'],
+                ['I','S','#','D','O'],
+                ['M','E','D','I','A'],
+                ['B','R','O','A','D'],
             ],
-            acrossClues: { 1: "Path in the woods", 6: "Suspends, dangles", 7: "Year (abbr.)", 8: "Sort, variety", 9: "Slow-cooked dish" },
-            downClues: { 1: "Unfreezing", 2: "Higher position", 3: "Within, inside", 4: "Signals, notices", 5: "Relaxed pace" }
-        },
-        {
-            grid: [
-                ['S','C','O','R','E'],
-                ['H','O','P','E','D'],
-                ['A','R','#','A','R'],
-                ['L','N','I','C','E'],
-                ['E','S','T','E','S']
-            ],
-            acrossClues: { 1: "Points in a game", 6: "Wished, desired", 7: "Doctor's title", 8: "Pleasant, friendly", 9: "Appraisals, guesses" },
-            downClues: { 1: "Beach footwear", 2: "Maize, grain", 3: "Opinion, view", 4: "Compete in a contest", 5: "Protector, guard" }
-        },
-        {
-            grid: [
-                ['D','R','I','V','E'],
-                ['R','I','N','S','E'],
-                ['A','N','#','T','A'],
-                ['I','K','O','A','R'],
-                ['N','S','N','L','S']
-            ],
-            acrossClues: { 1: "Operate a car", 6: "Wash lightly", 7: "Peppercorn (abbr.)", 8: "Swedish furniture store", 9: "Barns, sheds" },
-            downClues: { 1: "Emptying, depleting", 2: "Coloring agents", 3: "Not off", 4: "Salt water bodies", 5: "Appendages for hearing" }
-        },
-        {
-            grid: [
-                ['B','L','A','Z','E'],
-                ['R','E','N','E','W'],
-                ['I','A','#','R','A'],
-                ['D','R','U','L','E'],
-                ['E','N','T','S','S']
-            ],
-            acrossClues: { 1: "Roaring fire", 6: "Extend a subscription", 7: "Study, field", 8: "Govern, regulation", 9: "Beginnings, starts" },
-            downClues: { 1: "Wedding attendant", 2: "Knowledge gained", 3: "Specialized group", 4: "Animal lairs", 5: "Canvas shelters" }
+            acrossClues: { 1: "Go up", 6: "Afterward", 7: "Exists", 8: "Perform", 9: "News outlets", 11: "Wide" },
+            downClues: { 1: "Go up", 2: "Light beam", 3: "Thing pronoun", 4: "News outlets", 5: "Wide", 10: "Perform" }
         }
     ];
 
